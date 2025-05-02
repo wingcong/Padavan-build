@@ -40,7 +40,7 @@ jobs:
         git clone --depth=1 https://github.com/wingcong/rt-n56u-2.git /opt/rt-n56u
         fi
         cd /opt/rt-n56u/toolchain-mipsel
-        sh dl_toolchain.sh
+        #sh dl_toolchain.sh
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
